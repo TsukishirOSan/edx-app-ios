@@ -280,6 +280,7 @@
 		9CD7D2F21A9499D200E7126E /* OEXHandoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7D2EE1A9499D200E7126E /* OEXHandoutsViewController.m */; };
 		9CD7D2F31A9499D200E7126E /* OEXHandoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7D2EF1A9499D200E7126E /* OEXHandoutsViewController.xib */; };
 		9E5EDA631AFB535F002ADC64 /* OEXCourseAnnouncementsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EDA621AFB535F002ADC64 /* OEXCourseAnnouncementsViewController.storyboard */; };
+		9E5EDA691AFB603A002ADC64 /* OEXCourseAnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EDA681AFB603A002ADC64 /* OEXCourseAnnouncementsViewController.swift */; };
 		9E7D1BCC1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D1BCB1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard */; };
 		9ED269C81AEF8A5200328A34 /* OEXCourseVideoDownloadTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED269C71AEF8A5200328A34 /* OEXCourseVideoDownloadTableViewController.storyboard */; };
 		9ED269CA1AF0D62B00328A34 /* OEXMyVideosSubSectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED269C91AF0D62B00328A34 /* OEXMyVideosSubSectionViewController.storyboard */; };
@@ -813,6 +814,7 @@
 		9CD7D2EE1A9499D200E7126E /* OEXHandoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXHandoutsViewController.m; sourceTree = "<group>"; };
 		9CD7D2EF1A9499D200E7126E /* OEXHandoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OEXHandoutsViewController.xib; sourceTree = "<group>"; };
 		9E5EDA621AFB535F002ADC64 /* OEXCourseAnnouncementsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OEXCourseAnnouncementsViewController.storyboard; sourceTree = "<group>"; };
+		9E5EDA681AFB603A002ADC64 /* OEXCourseAnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OEXCourseAnnouncementsViewController.swift; sourceTree = "<group>"; };
 		9E7D1BCB1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OEXDownloadViewController.storyboard; sourceTree = "<group>"; };
 		9ED269C71AEF8A5200328A34 /* OEXCourseVideoDownloadTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OEXCourseVideoDownloadTableViewController.storyboard; sourceTree = "<group>"; };
 		9ED269C91AF0D62B00328A34 /* OEXMyVideosSubSectionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OEXMyVideosSubSectionViewController.storyboard; sourceTree = "<group>"; };
@@ -1916,6 +1918,7 @@
 				773A04771AF2D5DE0076532C /* CourseOutlineViewController.swift */,
 				770A3D401AF01477008F09D9 /* OEXCourseDashboardViewController.h */,
 				770A3D411AF01477008F09D9 /* OEXCourseDashboardViewController.m */,
+				9E5EDA681AFB603A002ADC64 /* OEXCourseAnnouncementsViewController.swift */,
 				77B463941A30F6390083453A /* Announcements */,
 				1918AFB2194835A500F40345 /* Level 1 */,
 				1913DD3F194EC59C00573977 /* Course Video List View */,
@@ -2609,6 +2612,7 @@
 				1940D8CB1A230E25000318A3 /* OEXAnalytics.m in Sources */,
 				7714A2601AB37CF7004C2254 /* OEXRegistrationFieldError.m in Sources */,
 				77000A4A1A7757E0007D306C /* NSDate+OEXComparisons.m in Sources */,
+				9E5EDA691AFB603A002ADC64 /* OEXCourseAnnouncementsViewController.swift in Sources */,
 				B498405C19753C6C00019D1F /* CLButton.m in Sources */,
 				199627831945AB5B0022C489 /* OEXCustomTextField.m in Sources */,
 				193B50481945A0520038E11C /* OEXCustomLabel.m in Sources */,
@@ -2799,6 +2803,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
@@ -2897,6 +2902,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -2939,6 +2945,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
