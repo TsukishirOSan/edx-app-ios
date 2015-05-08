@@ -132,7 +132,7 @@
 }
 
 - (void)showAnnouncements {
-    // TODO
+    [self.environment.router showAnnouncementsForCourseWithID:self.course.course_id];
 }
 
 - (void)showHandouts {
